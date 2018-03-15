@@ -1,0 +1,16 @@
+1. NREL WIND DATA SET TOOLS
+https://mapsbeta.nrel.gov/wind-prospector/?visible=wind_3tier_site_metadata#/?activeLayers=p7FOkl&baseLayer=groad&mapCenter=38.11727165830543%2C-92.724609375&zoomLevel=5
+
+2. NREL SOLAR
+http://www.nrel.gov/electricity/transmission/solar_integration_methodology.html
+
+
+3. NOAA NWS weather forecast data
+
+ftp://ftp.ncdc.noaa.gov/pub/data/noaa/
+ftp://ftp.ncdc.noaa.gov/pub/data/noaa/isd-history.csv
+http://blue.for.msu.edu/lab-notes/NOAA_0.1-1/NOAA-ws-data.pdf
+
+4. NASA  
+NASA Surface meteorology and Solar Energy: Daily Averaged Data
+https://eosweb.larc.nasa.gov/cgi-bin/sse/daily.cgi

@@ -1,0 +1,28 @@
+1. PJM: http://www.pjm.com/markets-and-operations/energy.aspx
+Desc: 
+link: http://www.pjm.com/markets-and-operations/energy.aspx
+Places: 13 states and the District of Columbia.
+
+api: https://dataminer.pjm.com/dataminerui/pages/public/energypricing.jsf
+
+2. EIA
+Desc: monthly data. Could not find the real-time prices.
+link: http://www.eia.gov/electricity/monthly/update/archive/april2015/
+
+sources:
+daily prices: http://www.eia.gov/electricity/wholesale/
+hourly prices?
+
+3. NYISO
+Desc: Real-time prices & day-ahead prices of New York
+Links: http://www.nyiso.com/public/markets_operations/market_data/pricing_data/index.jsp
+Places: New York
+
+4. EUROSTAT
+Desc: European Statistics on energy
+Link: http://ec.europa.eu/eurostat/web/energy/data/main-tables
+Places: Europe
+
+5. AEMO 
+Desc: AEMO is National Energy Market Operator and planner in Australia.
+Link: http://www.aemo.com.au/

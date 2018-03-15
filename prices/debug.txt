@@ -1,0 +1,6 @@
+Debug prices predictions SVM
+- ohio 7 pastValues MAE: 139 (too high)
+- before grid.py: ohio avgPastDays MAE: 48
+- after grid.py: ohio avgPastDays MAE: ??
+- increase the class level: ohio avgPastDays MAE: ??
+

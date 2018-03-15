@@ -1,0 +1,10 @@
+Sep. 26, 2015
+1. Understand the code.
+2. Run the prediction over Solar data & find the best parameters for ARMA for
+- Our target is to predict long term -> should we forecast daily or hourly?
+- What are the input data?
+- How long we need to look back the past data (autoaggressive)? How long for averaging (moving average)?
+ref.
+"Solar Generation Prediction using the ARMA Model in a Laboratory-level Micro-grid"
+or other papers if available
+3. Download the data of solar generation & wind generation.

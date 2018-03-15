@@ -1,0 +1,48 @@
+Data analysis - TODO
+
+1. Find best q for AR	
+	Vary AR(q) to find the best one ~ q = 7, 30, 60, 120.
+
+2. Find the typical location to compare AR and AVG
+
+3. Re-run the scripts based on the new value of q for each set of figures.
+
+**************************************************************
+script files for
+
+	Figures.
+		- Figure 3 (not in the manuscript, does not have script yet)
+			find the best q for AR by comparing mean squared errors for each q-
+			
+		- Figure 4 AR vs. AVG: shared/scriptComparePredictionErrors.m
+			save figures as file names: 
+				ar_vs_avg_solar.eps
+				ar_vs_avg_wind.eps
+				ar_vs_avg_price.eps
+				
+		- Figure 5 & Figure 6: 
+				for PV, Wind, Price: shared/scriptMonthlyError.m
+				for Workload: shared/scriptDailyWorkloadErrors.m		
+								
+				save figures as file names: 
+				Figure 5: ar_monthly_error_solar.eps, ar_monthly_error_wind.eps, ar_monthly_error_price.eps
+				Figure 6: ar_hourly_pdf_error_solar.eps, ar_hourly_pdf_error_wind.eps, ar_hourly_pdf_error_price.eps, ar_hourly_pdf_error_workload.eps
+				
+		- Figure 7: shared/scriptPlotStd.m
+				save figures as file names: solar_std_al.eps, wind_std_al.eps, price_std.eps
+		
+		- Figure 8: shared/scriptSpaceAnalysis.m
+				save figures as: solar_ar_corr_coff_30.eps, wind_ar_corr_coff_30.eps, price_ar_corr_coff_30.eps, workload_ar_corr_coff_1.eps
+					
+		
+				
+	AR
+		- PV: shared/google_dc/RScript_AR_SOLAR_24.R
+		- Wind: shared/google_dc/RScript_AR_WIND_24.R
+		- Price: shared/prices/RScript_AR_PRICE_24.R
+		- Workload: shared/workload/RScript_AR_workload_24.R
+		
+	AVG
+		- PV: shared/google_dc/avg_solar.m
+		- Wind: shared/google_dc/avg_wind.m
+		- price: shared/prices/avg_price.m

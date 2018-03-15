@@ -1,0 +1,18 @@
+{
+    "contents" : "\n\nlibrary(RTextTools)\n\n# Load the data from the csv file\ndata <- read.csv('sunnyData.csv', header = TRUE)\n\n# Create the document term matrix\ndtMatrix <- create_matrix(data[\"Text\"])\n\n# Configure the training data\ncontainer <- create_container(dtMatrix, data$IsSunny, trainSize=1:11, virgin=FALSE)\n\n# train a SVM Model\nmodel <- train_model(container, \"SVM\", kernel=\"linear\", cost=1)\n\n# new data\npredictionData <- list(\"sunny sunny sunny rainy rainy\", \"rainy sunny rainy rainy\", \"hello\", \"\", \"this is another rainy world\")\n\n# create a prediction document term matrix\npredMatrix <- create_matrix(predictionData, originalMatrix=dtMatrix)\n\n# create the corresponding container\npredSize = length(predictionData);\npredictionContainer <- create_container(predMatrix, labels=rep(0,predSize), testSize=1:predSize, virgin=FALSE)\n\n\n# predict\nresults <- classify_model(predictionContainer, model)\nresults",
+    "created" : 1444162652517.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2619060000",
+    "id" : "3FD740CD",
+    "lastKnownWriteTime" : 1444162877,
+    "path" : "C:/Users/NhatTan/Google Drive/shared/google_datacenters/svm_methods/svm_example.R",
+    "project_path" : "svm_example.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "type" : "r_source"
+}
